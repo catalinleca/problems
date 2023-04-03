@@ -135,7 +135,7 @@ export const sortFileTree = (items: Node[]) => {
   for (const item of items) {
     if (item.items.length) {
       sortFileTree(item.items);
-      console.log('a')
+      console.log('d')
     }
   }
 
