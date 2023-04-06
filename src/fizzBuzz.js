@@ -10,6 +10,7 @@ const conditions = new Map([
 function checkFizzBuzz(x) {
   let element = "";
 
+
   conditions.forEach((val, key) => {
     if (x % key === 0) {
       element += val;
